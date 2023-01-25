@@ -1,2 +1,5 @@
-# Redirect default Netlify subdomain to primary domain
-/ https://copyroad.com/ 301
+http://www.willgreen.net/*   https://copyroad.com/:splat 301!
+https://www.oillgreen.net/*  https://copyroad.com/:splat 301!
+http://willgreen.net/*       https://copyroad.com/:splat 301!
+https://willgreen.net/*      https://copyroad.com/:splat 301!
+willgreen.net/*              https://copyroad.com/:splat 301!
